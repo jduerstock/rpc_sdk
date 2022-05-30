@@ -1,0 +1,70 @@
+[Source Media Descriptions]
+	"1", "write disk", "drpc.li_", "..\disk1"
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = "YES"
+"STF_ROOT"       = ""
+"STF_SETTIME"    = "YES"
+"STF_TIME"       = "0"
+"STF_VITAL"      = "YES"
+
+[dlib]
+	1, drpcndr.lib,,,, 1996-07-12,,,, !READONLY,, rpcndr.lib,,,, 1551,,,,,
+	1, drpc.lib,,,, 1996-07-12,,,, !READONLY,, rpc.lib,,,, 310313,,,,,
+
+[mlib]
+	1, mrpc.lib,,,, 1996-07-12,,,, !READONLY,, rpc.lib,,,, 317452,,,,,
+
+[bin]
+	1, uuidgen.exe,,,, 1996-07-12,,,, !READONLY,,,,,, 168953,,,,,
+
+[include]
+	1, rpcnsip.h,,,, 1996-06-09,,,, !READONLY,,,,,, 1176,,,,,
+	1, rpcx86.h,,,, 1993-01-23,,,, !READONLY,,,,,, 2055,,,,,
+	1, midles.h,,,, 1996-06-09,,,, !READONLY,,,,,, 5962,,,,,
+	1, rpcnsi.h,,,, 1996-06-09,,,, !READONLY,,,,,, 14654,,,,,
+	1, rpcdcep.h,,,, 1996-06-09,,,, !READONLY,,,,,, 9678,,,,,
+	1, rpcdce.h,,,, 1996-06-09,,,, !READONLY,,,,,, 42018,,,,,
+	1, rpcndr.h,,,, 1996-07-11,,,, !READONLY,,,,,, 76660,,,,,
+
+[wlib]
+	1, wrpcndr.lib,,,, 1996-07-12,,,, !READONLY,, rpcndrw.lib,,,, 1551,,,,,
+	1, wrpc.lib,,,, 1996-07-12,,,, !READONLY,, rpcw.lib,,,, 42083,,,,,
+
+[binclude]
+	1, rpcerr.h,,,, 1996-02-29,,,, !READONLY,,,,,, 6605,,,,,
+
+[minclude]
+	1, mrpc.h,,,, 1996-03-01,,,, !READONLY,, rpc.h,,,, 1222,,,,,
+	1, rpcmac.h,,,, 1996-03-05,,,, !READONLY,,,,,, 3308,,,,,
+
+[dinclude]
+	1, drpc.h,,,, 1996-02-22,,,, !READONLY,, rpc.h,,,, 1055,,,,,
+
+[winclude]
+	1, wrpc.h,,,, 1995-11-15,,,, !READONLY,, rpc.h,,,, 1268,,,,,
+
+[Base]
+	1, readme.txt,,,, 1996-08-01,,,, !READONLY,,,,,, 69,,,,,
+
+[SetupTools]
+	1, setup.lst,,,, 1995-05-01,,,, !READONLY,,,,,, 531,,,,,
+	1, setuprun.lst,,,, 1995-05-01,,,, !READONLY,,,,,, 558,,,,,
+	1, msuilstf.dll,,,, 1995-05-01,,,, !READONLY,,,,,, 6144,,,,,
+	1, msshlstf.dll,,,, 1995-05-01,,,, !READONLY,,,,,, 14928,,,,,
+	1, rpcsdk.mst,,,, 1996-08-01,,,, !READONLY,,,,,, 19916,,,,,
+	1, msdetect.inc,,,, 1995-05-01,,,, !READONLY,,,,,, 22097,,,,,
+	1, mscuistf.dll,,,, 1996-08-01,,,, !READONLY,,,,,, 55336,,,,,
+	1, msdetstf.dll,,,, 1995-05-01,,,, !READONLY,,,,,, 24544,,,,,
+	1, setup.exe,,,, 1995-05-01,,,, !READONLY,,,,,, 24624,,,,,
+	1, setupapi.inc,,,, 1995-05-01,,,, !READONLY,,,,,, 55620,,,,,
+	1, msinsstf.dll,,,, 1995-05-01,,,, !READONLY,,,,,, 65440,,,,,
+	1, mscomstf.dll,,,, 1995-05-01,,,, !READONLY,,,,,, 74528,,,,,
+	1, _mstest.exe,,,, 1995-05-01,,,, !READONLY,,,,,, 89504,,,,,
+
+[dummynetapi]
+	1, dnetapi.dll,, netapi.v0,, 1995-05-01,,,, !READONLY,, netapi.dll,,,, 1536,,,,,
